@@ -1,0 +1,149 @@
+#navbarNav
+{
+    margin-left: 450px;
+    
+}
+
+.nav-item:hover{
+    color: blueviolet;
+    text-decoration: underline;
+    text-decoration-color: #5e3783;
+    text-underline-offset: 10px;
+}
+
+.navbar-nav ul li b:hover{
+    color: #5e3783;
+}
+.banner{
+background-color: rgb(222, 204, 237);
+height: 470px;
+}
+.img{
+    padding-right: 150px;
+    margin-right: 150px;
+    justify-self:right;
+    align-content:end;
+    padding-left: 400px;
+    margin-left: 300px;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+.overlay{
+    position: relative;
+}
+.overlay h1{
+    position: absolute;
+    top: -450px;
+    left: 150px;
+    color: rgb(117, 48, 182);
+}
+
+.overlay h2{
+    position: absolute;
+    color: rgb(117, 48, 182);
+    top:-300px ;
+    left: 150px;
+
+}
+.overlay h5{
+    position: absolute;
+    top: -250px;
+    left: 150px;
+}
+#eq{
+    position: absolute;
+    top: -100px;
+    left: 150px;
+    background-color: rgb(117, 48, 182) ;
+    color: white;
+    border-color:rgb(117, 48, 182)  ;
+    border-style: ridge;
+}
+#search{
+    border: 0px;
+    margin-left: 250px;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+}
+.card-group{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-left: 100px;
+    margin-inline: 50px;
+    
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+    /* border: ; */
+    background-color: rgba(241, 239, 239, 0.373);
+    height: 700px;
+    margin: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 100px;
+    border-color: black;
+}
+#det{
+    border-color:  rgb(117, 48, 182) ;
+    color:  rgb(117, 48, 182);
+    
+}
+
+    
+
+#det:hover{
+    background-color:rgb(117, 48, 182) ;
+    color: white;
+}
+.card{
+    background-color: whitesmoke;
+    
+}
+.card:hover{
+    box-shadow: 2px 3px 4px 5px rgb(184, 181, 181);
+    background-color: rgb(186, 80, 80);
+}
+h5,p{
+    text-align: left;
+}
+.row2{
+    display: flex;
+}
+/* #bb{
+    position: relative
+    
+} */
+#bb h1{
+    text-align: center;
+    position: relative;
+    top: -395px;
+    color:white;
+    
+}
+#bb p{
+    position: relative;
+    color: coral;
+    top: -385px;
+    text-align: center;
+}
+#cc{
+    position: relative;
+    color: blueviolet;
+    top: -375px;
+    margin-left: 700px;
+}
+#footer
+{
+    margin-top: -200px;
+}
+.list-unstyled :hover{
+    color: #5e3783;
+    text-decoration: underline ;
+    text-underline-offset: 7px;
+    
+    
+}
+
